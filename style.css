@@ -1,0 +1,711 @@
+body{
+    background-image: url("Plan.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    }
+header{
+    font-family:  sans-serif;
+    margin: 0 auto;
+    display: flex;
+    background-color: #002e5a;
+    width: 85%;
+    height: 110px;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    margin-left: 8%;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 15%;
+    border-right: solid 1px rgb(255, 255, 255, 0.1);
+}
+.logo h2{
+    color: white; 
+}
+.img1{
+    width: 60px;
+    height: 40px;
+}
+
+.infos{
+    border-bottom: solid 1px rgb(255, 255, 255, 0.1);
+    display: flex;
+    height: 40%;
+    gap: 110px;
+    font-size: 14px;
+}
+.infos ul{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+.infos1{
+    gap: 45px;
+}
+.infos1 i{
+    margin: 0 ;
+    color:#f7c02f ;
+}
+.infos1 li a:hover{
+    color:#f7c02f;
+}
+.infos1 li a{ 
+    text-decoration: none;
+    color: white;
+    transition: 0.5S;
+}
+
+.buttom1 {
+  font-family:'Montserrat'; 
+  display: inline-block;
+  background-color:#fcd420; /* jaune */
+  color: #002e5a;
+  padding: 6px 6px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 13px;
+  font-weight: bolder;
+  margin-left: 140px;
+  margin-top: 8px;
+}
+
+/* effet au survol */
+.buttom1:hover {
+  background-color: white; /* jaune un peu plus foncé */
+  color: #002e5a ;
+  transition: 0.5S;
+}
+nav {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    gap: 100px;
+    margin-left: 0;
+    margin-right: 30px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li a:hover{
+    color: #f4c400;
+    transition: 0.5S;
+}
+
+.social-icons{
+    margin-right: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+    
+}
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #002e5a;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    border: solid 1px  rgb(255, 255, 255, 0.1);
+}
+.social-icons a i{
+    color: white;
+    transition: 0.3s;
+}
+.social-icons a:hover i{
+    color:#002e5a;
+    text-shadow: 2px 2px 5px white;
+}
+.social-icons a:hover{
+    background-color: white;
+    box-shadow: 0 0 20px rgb(161, 148, 148);
+}
+.search-item input{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 10px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    display: none;
+    border-radius: 4px;
+    color: white;
+}
+.search-item i{
+    color: white;
+    cursor: pointer;
+    border-left: solid 1px rgb(255, 255, 255, 0.1);
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.arrow{
+    top: 63%;
+    position: absolute;
+    cursor: pointer;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 100%;
+}
+.arrow_left{
+    
+    border: 1px solid #002e5a;
+    background: #002e5a ;
+    color: white;
+    width: 35px;
+    height:35px;
+    float: left;
+}
+.arrow_right{
+    border: 1px solid #f4bf2e;
+    background: #f4bf2e;
+    color:#002e5a;
+    width: 35px;
+    height:35px;
+    float: right;
+}
+.arrow i{
+    font-size: 10px;
+}
+section{
+    margin: 0 auto;
+    gap: 20px;
+    
+}
+.section1{
+    margin-top: 10%;
+    color:#0a2a50;
+}
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#f7c02e;
+    color: #07294b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family:sans-serif;
+}
+.read-more:hover{
+    transition: 0.3s;
+    background-color: white;
+    color:#0a2a50;;
+}
+h1{
+    margin-top: 300px;
+}
+.test{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+h2{
+     font-family:sans-serif;
+}
+h1{
+    font-family:sans-serif;
+    font-size: 35px;
+}
+h3{
+    font-family:sans-serif;
+}
+h4{
+    font-family:sans-serif;
+}
+.section2{
+    height: 80px;
+    width: 85%;
+    margin-top: 13%;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.section3{
+    width: 85%;
+    color:#0a2a50;;
+}
+
+.ordre{
+    display: flex;
+    align-items: center;
+}
+.part1 img{
+    width:100%;
+    height:100%;
+}
+.part1{
+    width: 100px;
+    height: 80px;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    color:#fccc00;
+    margin-bottom: -2px;
+}
+.part2 h2{
+     margin:0;
+     color:#0a2a50;
+}
+.cards_picture p{
+    color :gray;
+}
+.cards_picture{
+    display: grid; /**/
+    grid-template-columns: 1fr 1fr 1fr; /*1fr: représente une grille sur la largeur.
+    Si on en met 4 fois, les quatre grilles seront sur la largeur de la page et ainsi de suite*/
+    text-align: center;
+    gap: 25px; /*Met un espace de 30px entre chaque élément */
+    justify-items: center; /*Permet de centrer les différentes cartes selon la largeur de leur père:div*/
+}
+.card{
+    padding: 0 20px;
+    width: 350px;
+    height: 230px;
+    gap:-10px;
+    border: 1px solid rgb(236, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.picture{
+    width: 350px;
+    height:230px;
+}
+footer{
+    margin-top: 20px;
+    font-weight: bolder;
+    background-color:#f7c02f;
+    color:#0a2a50;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+/* RESPONSIVE ECRANS DE 768px ET MOINS */
+
+@media screen and (max-width: 768px){
+
+    /* Empeche tout defilement horizontal*/
+    body{
+        padding-right: 0;
+        background-image: none;
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    /* Le header n'est plus fixe */
+    header{
+        position: relative;
+        top: auto;
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Le logo occupe toute la largeur */
+    .logo{
+        width: 100%;
+        border-right: none;
+        border-bottom: solid 1px rgb(255, 255, 255, 0.1);
+        padding: 10px 0;
+    }
+    .logo h2{
+        margin-bottom: 0;
+    }
+
+    /* La partie droite prend toute la largeur */
+    .bars{
+        width: 100%;
+    }
+
+    /* Les informations passent en colonne */
+    .infos{
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    /* Les coordonnées passent en colonne */
+    .infos ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Réduction des espaces entre les éléments */
+    .infos1{
+        gap: 15px;
+    }
+
+    /* Réinitialisation de la marge du bouton */
+    .buttom1{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Navigation verticale */
+    nav{
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        gap: 25px;
+        margin-right: 0;
+        padding: 20px 0;
+    }
+
+    /* Les liens du menu passent en plusieurs lignes */
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0 15px;
+        margin: 0;
+    }
+
+    /* Les réseaux sociaux restent centrés */
+    .social-icons{
+        flex-wrap: wrap;
+    }
+
+    /* Suppression du positionnement absolu problématique */
+    .search-item input{
+        position: static;
+        display: block;
+        width: 140px;
+        margin-top: 10px;
+    }
+
+    /* Alignement de l'icône recherche */
+    .search-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Suppression des marges inutiles */
+    .search-item i{
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+   
+    /* La première section garde un bon espacement */
+    .section1{
+        background-image: url("Plan.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:30vh;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    /* Bloc texte centré */
+    .test{
+        margin-left: 0;
+        padding: 0 20px 20px 20px;
+    }
+
+    /* Réduction du titre principal */
+    .test h1{
+        font-size: 2rem;
+        line-height: 1.3;
+        margin-top: 0;
+    }
+
+    /* Paragraphe plus lisible */
+    .test p{
+        line-height: 1.7;
+    }
+
+    /* Les flèches restent visibles pendant le scroll */
+    .arrow{
+        position: fixed;
+        top: 50%;
+        left: 0;
+        width: auto;
+        z-index: 999;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    /* Réactivation du clic sur les boutons */
+    .arrow_left,
+    .arrow_right{
+        pointer-events: auto;
+        width: 35px;
+        height: 35px;
+    }
+    
+    /* Section services */
+    .section2{
+        width: 95%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    /* Alignement image + texte */
+    .ordre{
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Cartes en une seule colonne */
+    .cards_picture{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* Largeur adaptative des cartes */
+    .card{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    /* Image adaptative */
+    .picture{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    /* Footer plus confortable */
+    footer{
+        height: auto;
+        padding: 5px;
+    }
+}
+
+/* RESPONSIVE TELEPHONE - ECRANS DE 480px ET MOINS */
+
+@media screen and (max-width: 480px){
+
+    /* Évite tout débordement horizontal */
+    
+    body{ 
+        max-width: 100%;
+        overflow-x: hidden;
+        background-image: none;
+    }
+
+    /* Le header reste non fixe */
+    header{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    /* Réduction de la taille du logo */
+    .img1{
+        width: 50px;
+        height: auto;
+    }
+
+    /* Réduction du titre */
+    .logo h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* Informations parfaitement centrées */
+    .infos{
+        padding: 15px 10px;
+        gap: 12px;
+    }
+
+    /* Chaque information reste visible */
+    .infos ul{
+        width: 100%;
+    }
+
+    /* Taille adaptée aux petits écrans */
+    .infos1 li{
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.6;
+        word-break: break-word;
+    }
+
+    /* Bouton plus confortable */
+    .buttom1{
+        width: 85%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Menu totalement vertical */
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Chaque lien dispose de son espace */
+    nav ul li{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    /* Réseaux sociaux sur plusieurs lignes si nécessaire */
+    .social-icons{
+        max-width: 100%;
+        gap: 12px;
+        padding: 0 10px;
+    }
+
+    /* Champ de recherche adapté */
+    .search-item input{
+        width: 180px;
+        max-width: 90%;
+    }
+
+    /* Réduction des marges */
+    .section1{ 
+        background-color: green;
+        margin-top: 0;
+        padding: 15px;
+        background-image: url("Plan.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+    }
+
+    /* Bloc texte principal */
+    .test{ 
+        
+        margin-top: 0;
+        padding: 0 10px 10px 10px;
+    }
+    
+
+    /* Titre principal mobile */
+    .test h1{
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin-top: 0;
+    }
+
+    /* Texte descriptif */
+    .test p{
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    /* Bouton plus facile à cliquer */
+    .read-more{
+        width: 80%;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    /* Flèches toujours visibles */
+    .arrow{
+        position: fixed;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        transform: translateY(-50%);
+    }
+
+    /* Taille adaptée des flèches */
+    .arrow_left,
+    .arrow_right{
+        width: 35px;
+        height: 35px;
+    }
+    .section2{
+        margin-top: 10px; 
+    }
+    /* Bloc titre service */
+    .ordre{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Image d'introduction */
+    .part1{
+        width: 120px;
+        height: auto;
+    }
+
+    /* Titre de section */
+    .part2 h2{
+        font-size: 1.4rem;
+    }
+
+    /* Cartes */
+    .card{
+        width: 100%;
+        max-width: 320px;
+        height: 200px;
+        padding: 20px 15px;
+        box-sizing: border-box;
+    }
+
+    /* Image centrale */
+    .picture{
+        width: 100%;
+        max-width: 320px;
+        height: 200px;
+    }
+
+    /* Footer */
+    footer{
+        padding:5px;
+        height: auto;
+        font-size: 14px;
+    }
+
+    
+}
